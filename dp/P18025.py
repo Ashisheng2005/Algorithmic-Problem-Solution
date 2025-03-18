@@ -6,6 +6,8 @@
 # @File : P18025.py
 # @desc : README.md
 
+# AC
+
 n, x = map(int, input().split())
 
 group = [list(map(int, input().split())) for _ in range(n)]
