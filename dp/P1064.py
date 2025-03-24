@@ -6,3 +6,8 @@
 # @File : P1064.py
 # @desc : README.md
 
+n, m = map(int, input().split())
+
+mp = [list(map(int, input().split())) for i in range(m)]
+mp.sort(key=lambda x:x[2])
+

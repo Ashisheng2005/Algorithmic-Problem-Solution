@@ -60,3 +60,4 @@ for i in range(2, n + 1):
     dp[i][0] = min(dp[i -1][0] + b[i] + dis(a[i - 1][0], a[i][1]), dp[i - 1][1] + b[i] + dis(a[i - 1][1], a[i][1])) + 1
     dp[i][1] = min(dp[i -1][0] + b[i] + dis(a[i - 1][0], a[i][0]), dp[i - 1][1] + b[i] + dis(a[i - 1][1], a[i][0])) + 1
 print(min(dp[n][0] + dis(n, a[n][0]), dp[n][1] + dis(n, a[n][1])))
+
