@@ -41,3 +41,4 @@ for i in range(n):
 for i in ans:
     print(i)
     # no AC
+
