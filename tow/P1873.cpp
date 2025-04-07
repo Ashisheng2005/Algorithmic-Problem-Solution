@@ -28,3 +28,4 @@ int main()
     cout<<leftt-1;
     return 0;
 }
+
