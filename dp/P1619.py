@@ -40,7 +40,7 @@ def fun2():
 
 # print(fun2())
 
-#
+#二维动态规划
 # n = int(input())
 #
 # mp = [list(map(int, input().split())) for a in range(n)]
@@ -52,7 +52,7 @@ def fun2():
 
 
 def donggui():
-    # 动态规划
+    # 一维动态规划
     f = [0 for i in range(n+1)]
     f[1] = mp[0][0]
     for i in range(2, n+1):
